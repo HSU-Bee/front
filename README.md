@@ -16,7 +16,7 @@
 
 - ### Front-End
   - HTML, CSS, javascript
-  - React.js
+  - React
 - ### Back-End
   - java
   - spring boot
