@@ -1,0 +1,99 @@
+#qna {
+  display: none; /*안보이게*/
+}
+
+.qBox {
+  background-color: whitesmoke;
+  text-align: center;
+  width: 80%; /*왼쪽으로 치우치게 됨 따라서 margin 값 부여 필요*/
+  border-radius: 20px;
+  font-size: 24px;
+  /*
+    margin-top:48px;
+    margin-bottom:48px;
+    padding-top:20px;
+    padding-bottom:20px; index.html */
+}
+
+.answerList {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  display: block; /*세로로 할려면  display:block */
+  width: 80%; /*버튼을 같은 크기로*/
+  border: 0px;
+  /*
+    margin-bottom: 20px;
+    margin-bottom:20px;
+    padding-top:20px;
+    padding-bottom:20px; start.js*/
+  font-size: 20px;
+}
+
+/*hover 버튼 위에 올려지면, focus 클릭하면*/
+.answerList:hover,
+.answerList:focus {
+  background-color: #fee500;
+  color: black; /*글자색*/
+}
+
+.status {
+  height: 20px;
+  width: 80%;
+  background-color: white;
+  border-radius: 20px;
+}
+.statusBar {
+  height: 100%;
+  background: #febf01; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #febf01 0%,
+    #febf01 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #febf01 0%,
+    #febf01 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #febf01 0%,
+    #febf01 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febf01', endColorstr='#febf01',GradientType=0 ); /* IE6-9 */
+  border-radius: 20px;
+}
+
+/*
+.statusBar {
+  height: 100%;
+  background: #febbbb; /* Old browsers */
+/*
+  background: -moz-linear-gradient(
+    top,
+    #febbbb 0%,
+    #fe9090 52%,
+    #fe9090 52%,
+    #ff5c5c 100%
+  ); /* FF3.6-15 */
+/*
+  background: -webkit-linear-gradient(
+    top,
+    #febbbb 0%,
+    #fe9090 52%,
+    #fe9090 52%,
+    #ff5c5c 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+/*
+  background: linear-gradient(
+    to bottom,
+    #febbbb 0%,
+    #fe9090 52%,
+    #fe9090 52%,
+    #ff5c5c 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/*
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+/*
+  border-radius: 20px;
+}*/
