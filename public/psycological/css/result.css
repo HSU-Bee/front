@@ -1,0 +1,66 @@
+#result {
+  display: none;
+  background-color: whitesmoke;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#shareResult {
+  background-color: whitesmoke;
+  width: 80%;
+  text-align: center;
+  border-radius: 20px;
+}
+
+#gohome {
+  color: white;
+  background-color: #fee500;
+  font-size: 20px;
+  border: 0px;
+  border-radius: 20px;
+}
+
+.reusltname {
+  font-size: 26px;
+}
+
+.resultDesc {
+  font-size: 20px;
+}
+
+.kakao {
+  border: 0px;
+  color: white;
+  background-color: #fee500;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.goTrip {
+  border: 0px;
+  color: white;
+  background-color: #fee500;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+/*hover 버튼 위에 올려지면, focus 클릭하면*/
+.kakao:hover,
+.kakao:focus {
+  background-color: whitesmoke;
+  color: #fee500; /*글자색*/
+}
+
+.goTrip:hover,
+.goTrip:focus {
+  background-color: whitesmoke;
+  color: #fee500; /*글자색*/
+}
+
+/*hover 버튼 위에 올려지면, focus 클릭하면*/
+.gohome:hover,
+.gohome:focus {
+  background-color: whitesmoke;
+  color: #fee500; /*글자색*/
+}

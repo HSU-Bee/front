@@ -1,0 +1,14 @@
+#main{
+    background-color : whitesmoke;
+    width:80%;
+    /*margin-right:10%;
+    margin-left:10%; 부트스트랩에서 mx-auto로 설정 가능*/
+    text-align:center;
+    border-radius: 20px;
+    /*margin-top:50px; 부트스트랩에서 mt-5*/
+}
+
+
+p{
+    font-size:22px;
+}

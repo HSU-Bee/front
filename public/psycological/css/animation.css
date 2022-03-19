@@ -1,0 +1,47 @@
+@keyframes fadeIn {
+  /*어떤 요소가 시작될때 적용시키는 애니메이션*/
+  from {
+    opacity: 0;
+  } /*opacity:투명도*/
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  /*끝날때는 투명도를 활용해서 사라지게*/
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  /*어떤 요소가 시작될때 적용시키는 애니메이션*/
+  from {
+    opacity: 0;
+  } /*opacity:투명도*/
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeOut {
+  /*끝날때는 투명도를 활용해서 사라지게*/
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fadeIn {
+  animation: fadeIn;
+  animation-duration: 0.5s;
+}
+
+.fadeout {
+  animation: fadeOut;
+  animation-duration: 0.5s;
+}
